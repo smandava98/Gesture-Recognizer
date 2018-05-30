@@ -19,3 +19,6 @@ Building Hand and Training Classifier:
 To check if it is a hand, I checked the degree of overlap with the given bounding box. To reduce false positives, hard negative mining is employed. 
 
 To summarize, given a test image, I first get the various detected regions across different scales of the image and pick the best one among them. This region is then cropped out, rescaled (to 128x128) and its corresponding hog vector is fed to the recognizer which then predicts the gesture denoted by the hand in the image.
+
+
+Update: Added an example image from dataset.
